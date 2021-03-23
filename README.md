@@ -1,5 +1,5 @@
 # webpack-boilerplate
-# webpack folder
+## webpack folder
 * base 
 * dev
 * prod
