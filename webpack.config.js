@@ -1,6 +1,7 @@
 const path = require('path')
 const HtmlWebpackPlugin = require('html-webpack-plugin')
 const { CleanWebpackPlugin } = require('clean-webpack-plugin')
+const JscramblerWebpack = require('jscrambler-webpack-plugin');
 
 module.exports = {
     entry: {
@@ -48,5 +49,6 @@ module.exports = {
             filename: 'index.html', // output file
         }),
         new CleanWebpackPlugin(), // clear our anything in build folder, after each build
+        // other plugins
     ],
 }
